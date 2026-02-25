@@ -73,8 +73,8 @@ const config: Config = {
     navbar: {
       title: 'S & A Unified Knowledge Hub',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'S & A Unified Logo',
+        src: 'img/logo.svg', //add logo file
       },
       items: [
         {

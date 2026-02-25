@@ -6,8 +6,8 @@
 
 Chaotic connections, manual data transfer, "junk portal."
 
-```
-flowchart TD
+```mermaid
+flowchart TD;
     HHAX[("🏢 HHAeXchange
     (SaaS Master)")]
     Viv[("💰 Viventium

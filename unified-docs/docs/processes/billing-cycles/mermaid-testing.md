@@ -1,7 +1,6 @@
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    A[HHAX Export] --> B{ETL Worker};
+    B -- Success --> C[(PostgreSQL)];
+    B -- Fail --> D[Error Log];
 ```

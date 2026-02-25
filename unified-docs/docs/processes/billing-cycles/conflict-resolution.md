@@ -9,6 +9,7 @@ tags:
   - data_integrity
   - billing_error
 ---
+# Conflict Resolution
 ## Scenario
 The caregiver works for two agencies, and their hours overlap. This prevents payment.
 
