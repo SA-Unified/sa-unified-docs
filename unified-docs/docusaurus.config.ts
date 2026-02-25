@@ -32,7 +32,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ru'],
+    locales: ['en'], //, 'ru' also
   },
 
   presets: [
@@ -48,18 +48,6 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -67,12 +55,20 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  // Mermaid Theme and Markdown Support
+  themes: ['@docusaurus/theme-mermaid'],
+  markdown: {
+    mermaid: true,
+  },
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
+    },
+    // Mermaid configuration (optional: customize theme here)
+    mermaid: {
+      theme: {light: 'neutral', dark: 'forest'},
     },
     navbar: {
       title: 'S & A Unified Knowledge Hub',
@@ -87,7 +83,10 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+       // {to: '/blog', label: 'Blog', position: 'left'},
+        // {type: 'localeDropdown',
+        //   position: 'right', 
+        // },
       ],
     },
     footer: {
@@ -103,37 +102,16 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Resources',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Website',
+              href: 'https://saunifiedhomecare.com/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} S & A Unified. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
