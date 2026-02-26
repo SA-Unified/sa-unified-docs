@@ -2,6 +2,7 @@ backend:
   name: github
   repo: your-org/your-repo # Update this with company repo
   branch: main
+local_backend: true
 
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
@@ -78,7 +79,7 @@ collections:
       - { label: "Description", name: "body", widget: "markdown" }
 
   # --------------------------------------------------------
-  # 3. PROJECTS COLLECTION 
+  # 3. PROJECTS COLLECTION
   # --------------------------------------------------------
   - name: "projects"
     label: "Projects"
@@ -102,6 +103,13 @@ collections:
           widget: "select",
           options:
             ["Active", "In Development", "Legacy", "Deprecated", "On Hold"],
+        }
+      - {
+          label: "Priority",
+          name: "priority",
+          widget: "select",
+          options:
+            ["High", "Medium", "Low", "None"],
         }
       - {
           label: "Integration",

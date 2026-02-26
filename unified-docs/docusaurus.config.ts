@@ -79,9 +79,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'mainSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Getting Started',
         },
        // {to: '/blog', label: 'Blog', position: 'left'},
         // {type: 'localeDropdown',
