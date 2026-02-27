@@ -15,7 +15,4 @@ Internal Document Collection App using Docusaurus. Developed and compiled by Nya
 ## Additional Modules
 
 - [CMS: Decap](https://decapcms.org/)
-- [YAML Front Matter Parser: Gray Matter](https://github.com/jonschlinkert/gray-matter)* 
-
-
-* to be added
+- [YAML Front Matter Parser: Gray Matter](https://github.com/jonschlinkert/gray-matter)*(to be added) 
