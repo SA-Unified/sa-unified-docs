@@ -1,5 +1,5 @@
 ---
-title: Coordinator
+title: Coordinator 
 type: team
 department_head: TBD
 parent_department: Operations

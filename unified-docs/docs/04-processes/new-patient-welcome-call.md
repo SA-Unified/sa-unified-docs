@@ -18,7 +18,7 @@ last_updated: 2026-02-27
 
 The New Patient Welcome Call is the primary initial phone call made to a new patient to verify demographic data, establish safety protocols, and initiate home care services. 
 
-## 📞 Welcome Call Checklist
+## Welcome Call Checklist
 
 During the call, the following points **must** be verified and documented:
 
@@ -32,7 +32,7 @@ During the call, the following points **must** be verified and documented:
 
 ---
 
-## 🔄 Data Flow
+## Data Flow
 
 The information collected must follow this specific internal routing:
 

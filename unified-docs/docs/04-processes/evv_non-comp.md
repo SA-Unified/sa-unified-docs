@@ -11,7 +11,8 @@ created_on: 2026-02-26
 last_updated: 2026-02-06
 ---
 # EVV Non-Compliance & Discipline
-## Summary 
+
+## Description 
 This refers to the decentralized, local Excel spreadsheets maintained 
 on individual coordinators' computers specifically for tracking 
 Sick Time requests. It is categorized as Shadow IT because it 
