@@ -1,7 +1,6 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -52,7 +51,22 @@ const config: Config = {
     ],
   ],
   // Mermaid Theme and Markdown Support
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: ['@docusaurus/theme-mermaid', [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // Only search your docs
+        indexBlog: false,
+        indexPages: false,
+        indexDocs: true,
+        // Default language of your site
+        language: ["en"],
+        // Highlights the search terms on the page when clicked
+        highlightSearchTermsOnTargetPage: true,
+      }),
+    ],],
   markdown: {
     mermaid: true,
   },
@@ -79,10 +93,6 @@ const config: Config = {
           position: 'left',
           label: 'Documents',
         },
-       // {to: '/blog', label: 'Blog', position: 'left'},
-        // {type: 'localeDropdown',
-        //   position: 'right', 
-        // },
         {
           label: 'Editor Login',
           href: 'pathname:///admin/',

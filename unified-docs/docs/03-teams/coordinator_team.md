@@ -1,7 +1,7 @@
 ---
 title: Coordinator
 type: team
-department_head: Jane Smith
+department_head: TBD
 parent_department: Operations
 tags:
   - billing

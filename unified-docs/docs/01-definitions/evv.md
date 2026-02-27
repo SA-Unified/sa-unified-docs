@@ -7,6 +7,7 @@ tags:
   - caregiver
   - client
 ---
+
 ## Definition
 Electronic Visit Verification (EVV) is a system that may include multiple point-of-care verification technologies, such as telephonic, mobile, and web-based verification inputs. The system electronically verifies the occurrence of home- or community-based service visits, identifying the time that service provision begins and ends to ensure accurate claims disbursement and helping to ensure that beneficiaries who are authorized to receive services get the expected care. It's used to:
 

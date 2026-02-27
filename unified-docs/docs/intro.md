@@ -8,16 +8,16 @@ Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
 
-Unified Docs contains
+Select any of the categories on the left sidebar to navigate the different topics. 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+### Navigation
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Search 
+- Tags
+- Sidebar
 
-## Generate a new site
+### 
 
 Generate a new Docusaurus site using the **classic template**.
 
