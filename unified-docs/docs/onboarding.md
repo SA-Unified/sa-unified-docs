@@ -18,11 +18,11 @@ Each team has different job responsibilities, tools, and expectations. Select th
 
 ## By Department
 
-- [Authorization](example.com) 
-- [Archive](example.com)
-- [Billing](example.com)
-- [Compliance](example.com)
-- [HR](example.com)
-- [IT](example.com)
+<!-- - [Authorization]() 
+- [Archive]()
+- [Billing]()
+- [Compliance]()
+- [HR]()
+- [IT]() -->
 
-S & A Unified Home Care Inc. wishes you the best of luck and success in your position and hopes that your time with S & A Home Care, Inc. will be a rewarding experience. Welcome Aboard!
+S & A Unified Home Care Inc. wishes you the best of luck and success in your position and hopes that your time with S & A Unified Home Care, Inc. will be a rewarding experience. Welcome Aboard!
